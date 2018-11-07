@@ -5,6 +5,8 @@ for num in 1..100 do
 		puts "fizz"
 	elsif num.modulo(5)==0 then
 		puts "buzz"
+	elsif num.modulo(7)==0 then
+		puts "git"
 	else
 		puts num
 	end
